@@ -1,3 +1,8 @@
+<?php
+
+$languaje = "PHP";
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +13,7 @@
 	<h1>Mejorando con Laravel</h1>
 	<?php
 
-	echo "PHP & HTML5";
+	echo $languaje . " & HTML5";
 
 	?>
 </body>
