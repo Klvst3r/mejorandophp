@@ -6,7 +6,7 @@
 </head>
 <body>
 	<h1>Mejorando con Laravel</h1>
-<strong><?php echo $languaje ?>
+<strong><?= $languaje ?>
 </strong> & HTML5
 </body>
 </html>
