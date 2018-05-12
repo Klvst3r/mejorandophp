@@ -6,10 +6,7 @@
 </head>
 <body>
 	<h1>Mejorando con Laravel</h1>
-	<?php
-
-	echo "<strong>" . $languaje . "</strong> & HTML5";
-
-	?>
+<strong><?php echo $languaje ?>
+</strong> & HTML5
 </body>
 </html>
