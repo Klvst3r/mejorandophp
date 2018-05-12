@@ -13,7 +13,7 @@ $languaje = "PHP";
 	<h1>Mejorando con Laravel</h1>
 	<?php
 
-	echo $languaje . " & HTML5";
+	echo "<strong>" . $languaje . "</strong> & HTML5";
 
 	?>
 </body>
