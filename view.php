@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Mejorando Laravel</title>
+	<title><?= $titulo ?></title>
 </head>
 <body>
 	<h1>Mejorando con Laravel</h1>
