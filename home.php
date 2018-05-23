@@ -10,4 +10,4 @@ $titulo = "Mejorando Laravel by Klvst3r";
 
 //Llamando a una funcion
 //view('view', ['languaje' => $languaje, 'titulo' => $titulo ]);
-view('view', compact('languaje', 'titulo'));
+view('home', compact('languaje', 'titulo'));
