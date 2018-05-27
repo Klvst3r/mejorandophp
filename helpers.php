@@ -7,6 +7,10 @@ function view($template, $vars = array() ){
 
 function controller($name){
 	
+	if(empty($name)){
+		$name = 'home';
+	}
+
 	$file = "controllers/$name.php";
 	//exit($file);
 	if(file_exists($file)){
